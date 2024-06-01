@@ -1,0 +1,19 @@
+Zone "JS: Super8 MIDI-controlled synchronized looper (Cockos)" "Super8"
+	Plugin        ClearFXSlot
+
+    Switch_0_1       Reaper _RS2dea93d78b93dcc50e6501edd3af45d82ad1f4df // Script: MalG_SendMidiCC36.lua
+    Switch_0_2       Reaper _RS7a7a3737955eacb8d567c9ccf7d8b9527f0bfde3 // Script: MalG_SendMidiCC38.lua
+    Switch_0_3       Reaper _RSe767b27fe1de7e38c5d75760e0632440a8823638 // Script: MalG_SendMidiCC41.lua
+    Switch_0_4       Reaper _RS0d5a7f6bd7478cc06b32bc950402565cbb3c558b // Script: MalG_SendMidiCC43.lua
+    Switch_0_6       Reaper _RSf2df3bcb05fb692ee913085c17fd658681749cbf // Script: MalG_SendMidiCC45.lua
+    Switch_0_7       Reaper _RSe1e27fef54ae99ce6d6d5470d7d52fb87ea41ce2 // Script: MalG_SendMidiCC48.lua
+    Switch_0_8       Reaper _RSf868a3065c688559f85ed8a754b480318e50ded7 // Script: MalG_SendMidiCC50.lua
+    Switch_0_9       Reaper _RSb225b7e01945304b71885a722a495e98567d306d // Script: MalG_SendMidiCC53.lua
+
+ZoneEnd
+
+0 Sync
+1 Click count/length
+2 Bypass
+3 Wet
+4 Delta

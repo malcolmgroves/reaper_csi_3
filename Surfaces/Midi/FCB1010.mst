@@ -1,0 +1,136 @@
+/ Switch naming
+/ Switch_0_1 would be bank 0, switch 1
+
+/ Bank 0
+Widget Switch_0_1 
+    AnyPress c0 00 00 
+WidgetEnd 
+
+Widget Switch_0_2 
+    AnyPress c0 01 00 
+WidgetEnd 
+
+Widget Switch_0_3 
+    AnyPress c0 02 00 
+WidgetEnd 
+
+Widget Switch_0_4 
+    AnyPress c0 03 00 
+WidgetEnd 
+
+Widget Switch_0_5 
+    AnyPress c0 04 00 
+WidgetEnd  
+
+Widget Switch_0_6 
+    AnyPress c0 05 00 
+WidgetEnd 
+
+Widget Switch_0_7 
+    AnyPress c0 06 00 
+WidgetEnd 
+
+Widget Switch_0_8 
+    AnyPress c0 07 00 
+WidgetEnd 
+
+Widget Switch_0_9 
+    AnyPress c0 08 00 
+WidgetEnd 
+
+Widget Switch0_10 
+    AnyPress c0 09 00 
+WidgetEnd 
+
+
+/ Bank 1
+Widget Switch_1_1 
+    AnyPress c0 0a 00 
+WidgetEnd 
+
+Widget Switch_1_2 
+    AnyPress c0 0b 00 
+WidgetEnd 
+
+Widget Switch_1_3 
+    AnyPress c0 0c 00 
+WidgetEnd 
+
+Widget Switch_1_4 
+    AnyPress c0 0d 00 
+WidgetEnd 
+
+Widget Switch_1_5 
+    AnyPress c0 0e 00 
+WidgetEnd 
+
+Widget Switch_1_6 
+    AnyPress c0 0f 00 
+WidgetEnd 
+
+Widget Switch_1_7 
+    AnyPress c0 10 00 
+WidgetEnd 
+
+Widget Switch_1_8 
+    AnyPress c0 11 00 
+WidgetEnd 
+
+Widget Switch_1_9 
+    AnyPress c0 12 00 
+WidgetEnd 
+
+Widget Switch_1_10 
+    AnyPress c0 13 00 
+WidgetEnd 
+
+/ Bank 2
+
+Widget Switch_2_1 
+    AnyPress c0 14 00 
+WidgetEnd 
+
+Widget Switch_2_2 
+    AnyPress c0 15 00 
+WidgetEnd 
+
+Widget Switch_2_3 
+    AnyPress c0 16 00 
+WidgetEnd 
+
+Widget Switch_2_4 
+    AnyPress c0 17 00 
+WidgetEnd 
+
+Widget Switch_2_5 
+    AnyPress c0 18 00 
+WidgetEnd 
+
+Widget Switch_2_6 
+    AnyPress c0 19 00 
+WidgetEnd 
+
+Widget Switch_2_7 
+    AnyPress c0 1a 00 
+WidgetEnd 
+
+Widget Switch_2_8 
+    AnyPress c0 1b 00 
+WidgetEnd 
+
+Widget Switch_2_9 
+    AnyPress c0 1c 00 
+WidgetEnd 
+
+Widget Switch_2_10 
+    AnyPress c0 1d 00 
+WidgetEnd 
+
+
+Widget ExpressionPedal1
+	Fader7Bit b0 07 7f
+WidgetEnd
+
+Widget ExpressionPedal2
+	Fader7Bit b0 0a 7f
+WidgetEnd

@@ -1,0 +1,37 @@
+Zone "AddFX"
+    F1                  LeaveSubZone
+
+/ Add FX to track(s). Needs Shortcuts created for FX by right-clicking on FX and Adding Shortcut. Then ESC. Creates an Insert FX action
+    DisplayUpper1       FixedTextDisplay "ReaEQ"
+    DisplayLower1       FixedTextDisplay "Add FX"
+    RotaryPush1         Reaper _FX309613f1f0d81aec7417e4a541546e441c85e633 // Insert FX: VST: ReaEQ (Cockos)
+
+    DisplayUpper2       FixedTextDisplay "ReaComp"
+    DisplayLower2       FixedTextDisplay "Add FX"
+    RotaryPush2         Reaper _FX790766bbbafbd64a76d87af745dfa497f533dec4 // Insert FX: VST: ReaComp (Cockos)
+
+    DisplayUpper3       FixedTextDisplay "Shimmer"
+    DisplayLower3       FixedTextDisplay "Add FX"
+    RotaryPush3         Reaper _FXa46de0d456b4df55a297c8acce3aed225036db16 // Insert FX: VST3: ValhallaShimmer (Valhalla DSP, LLC)
+
+    DisplayUpper4       FixedTextDisplay "SPAN +"
+    DisplayLower4       FixedTextDisplay "Add FX"
+    RotaryPush4         Reaper _FX169449c5333a0a4c1e5f6910d35860e39c43c033 // Insert FX: VST3: SPAN Plus (Voxengo)
+
+    DisplayUpper5       FixedTextDisplay "EZKeys"
+    DisplayLower5       FixedTextDisplay "Add FX"
+    RotaryPush5         Reaper _FXc32a1ddba521ccf18b7c98a4b2cfd0b7d8e715e1 // Insert FX: VSTi: EZkeys (Toontrack)
+
+    DisplayUpper6       FixedTextDisplay "AcouFiend"
+    DisplayLower6       FixedTextDisplay "Add FX"
+    RotaryPush6         Reaper _FX14217eb937de2d2efd0b2e99cd88690778acf85a // Insert FX: VST3: Blue Cat's AcouFiend (Blue Cat Audio)
+
+    DisplayUpper7       FixedTextDisplay "PodFarm"
+    DisplayLower7       FixedTextDisplay "Add FX"
+    RotaryPush7         Reaper _FX6f0183ba29b4bc0e1eaab9ee770749399b20441c // Insert FX: VST: POD Farm 2 (Line 6, Inc.)
+
+    DisplayUpper8       FixedTextDisplay "EZDrummer"
+    DisplayLower8       FixedTextDisplay "Add FX"
+    RotaryPush8         Reaper _FX1378bd59d8409e57c39aa5d1cc26e07b273a5166 // Insert FX: VSTi: EZdrummer (Toontrack) (32 out)
+
+ZoneEnd

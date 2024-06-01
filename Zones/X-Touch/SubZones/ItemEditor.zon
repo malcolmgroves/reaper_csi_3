@@ -1,0 +1,26 @@
+Zone "ItemEditor"
+    Shift+F2        LeaveSubZone
+
+	RotaryPush1     Reaper "41520"    // 41520 Item: Cycle through fade-in shapes
+    DisplayUpper1   FixedTextDisplay "Fade-in"
+    DisplayLower1   FixedTextDisplay ""
+    Increase+Rotary1         Reaper "_RS5be18f3f288cee39a9cc99c9f42fbd0fe476516a" // Script: MalG_IncreaseSelectedItemsFadeInLength.lua
+    Decrease+Rotary1         Reaper "_RS15940d0447c02e53c4fec42d76cfebddd480032c" // Script: MalG_DecreaseSelectedItemsFadeInLength.lua
+
+    Increase+Rotary2          Reaper "_RS18effe7850d4eefb5928f8894362a11ed0e0c22d" // Script: MalG_IncreaseSelectedItemsVolume.lua
+    Decrease+Rotary2         Reaper "_RS9cca3cf33d6485eac6a8e6fb4c4846f979610e65" // Script: MalG_DecreaseSelectedItemsVolume.lua
+    DisplayUpper2   FixedTextDisplay "Volume"
+    DisplayLower2   FixedTextDisplay ""
+
+    Rotary4          Reaper "_RSab7b6192058833537827cb4871d4635c7ea3dca1" // Script: MalG_IncreaseSelectedItemsVolume.lua
+    DisplayUpper4   FixedTextDisplay "Log"
+    DisplayLower4   FixedTextDisplay ""
+
+
+
+	RotaryPush3     Reaper "41527"    // 41527 Item: Cycle through fade-out shapes
+    DisplayUpper3   FixedTextDisplay "Fde-out"
+    DisplayLower3   FixedTextDisplay ""
+    Decrease+Rotary3         Reaper "_RS70075e826638d89d953487b735ced45a7ab3185b" // Script: MalG_IncreaseSelectedItemsFadeOutLength.lua
+    Increase+Rotary3         Reaper "_RS85b9776c9947a112556d0060224c134b588b40b4" // Script: MalG_DecreaseSelectedItemsFadeOutLength.lua
+ZoneEnd                 

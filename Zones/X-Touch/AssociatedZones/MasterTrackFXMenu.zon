@@ -1,0 +1,18 @@
+Zone "MasterTrackFXMenu"
+	OnZoneActivation	SetXTouchDisplayColors Blue
+	OnZoneDeactivation	RestoreXTouchDisplayColors
+    OnZoneDeactivation	HideFXSlot
+	DisplayUpper|       FXMenuNameDisplay
+	DisplayLower|       FXBypassedDisplay
+    Rotary|             NoAction
+    RotaryPush|         GoFXSlot
+    RotaryPush|         ShowFXSlot
+	Mute| 			    ToggleFXBypass
+    Left                Bank MasterTrackFXMenu -1
+    Right               Bank MasterTrackFXMenu 1
+
+	RecordArm| 			NoAction        
+	Solo|           	NoAction
+    Select|         	NoAction
+	Fader|				NoAction    
+ZoneEnd
